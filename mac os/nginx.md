@@ -17,10 +17,10 @@ nginx 重启：
     <plist version="1.0">  
     <dict>  
             <key>Label</key>  
-            <string>com.mysql</string>  
+            <string>com.nginx.plist</string>  
             <key>ProgramArguments</key>  
             <array>  
-                    <string>/usr/local/mysql/bin/mysqld_safe</string>  
+                    <string>/usr/local/bin/nginx</string>  
             </array>  
             <key>RunAtLoad</key>  
             <true/>  
