@@ -3,7 +3,7 @@
     
     sudo /usr/local/opt/php56/sbin/php-fpm --fpm-config /usr/local/etc/php/5.6/php-fpm.conf
 
-###设置php-fpm的开机自启动
+### 设置php-fpm的开机自启动
 新建一个php-fpm的开机自启动文件
     
     sudo vim /Library/LaunchDaemons/com.php-fpm.plist
