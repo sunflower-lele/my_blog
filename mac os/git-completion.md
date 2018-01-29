@@ -13,6 +13,7 @@ git 生成ssh
     cat ~/.ssh/id_rsa.pub
     
 
+### git 代码补全
 安装 bash-completion 工具 （已安装就忽略这一步）
 
  	brew install bash-completion       //brew包管理工具
