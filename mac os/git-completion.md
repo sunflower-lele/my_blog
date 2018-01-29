@@ -1,4 +1,17 @@
-### git小技巧以及代码补全
+## git ssh以及代码补全
+### git ssh 添加
+git 生成ssh
+
+    ssh-keygen -t rsa -C "11@1.com"（此处为邮箱,格式标准即可，本机只会保留最后一次生成的）
+
+添加ssh到id_rsa.pub,并保存
+    
+    vi ~/.ssh/id_rsa.pub
+    
+查看id_rsa.pub文件，并把该值添加到gitlab
+    
+    cat ~/.ssh/id_rsa.pub
+    
 
 安装 bash-completion 工具 （已安装就忽略这一步）
 
@@ -30,5 +43,4 @@
  	source ~/.git-completion.bash
 重启终端
 
-####试试你的新git吧~
-
+#### 试试你的新git吧~
