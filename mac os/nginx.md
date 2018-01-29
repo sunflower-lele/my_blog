@@ -12,7 +12,8 @@ nginx 重启：
      
      sudo vim /Library/LaunchDaemons/com.nginx.plist
 添加com.nginx.plist文件,文件内容请参照：
-[链接:](https://www.cnblogs.com/52php/p/5684348.html)
+[链接](https://www.cnblogs.com/52php/p/5684348.html)
+
 注册这个plist文件到系统服务，执行命令如下：
     
     sudo launchctl load -w +文件名
