@@ -1,4 +1,4 @@
-### nignx 相关操作
+### nignx 开机自启动配置
 nginx 启动：
 
     nginx -c /usr/local/etc/nginx/nginx.conf（此处是nginx的配置文件位置）

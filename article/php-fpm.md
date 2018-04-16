@@ -1,4 +1,4 @@
-### 启动php-fpm的方法
+### php-fpm开机自启动
 命令启动:
     
     sudo /usr/local/opt/php56/sbin/php-fpm --fpm-config /usr/local/etc/php/5.6/php-fpm.conf
