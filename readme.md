@@ -12,3 +12,5 @@
 [linux常用命令](https://github.com/sunflower-lele/my_blog/blob/master/article/linux.md)
 
 [面向对象三大特性解析](https://github.com/sunflower-lele/my_blog/blob/master/article/面向对象思想.md)
+
+[curl总结](https://github.com/sunflower-lele/my_blog/blob/master/article/curl.md)
