@@ -5,7 +5,7 @@
 #### curl基础例子
 
 只要php开启了curl扩展，就可以使用curl函数了。使用curl函数的基本思想是先使用curl_init()初始化curl会话，
-然后可以通过curl_setopt()设置需要的全部选项，然后再使用curl_exec()来执行会话，当执行完会话后使用curl_close()
+然后可以通过curl_setopt()设置需要的全部选项，然后再使用curl_exec()来执行会话，当执行完会话后使用curl_close()，
 关闭会话。这是一个完整的curl使用过程。
 
 ```
@@ -54,8 +54,8 @@ $data = curlPost('https://www.php230.com', array('p'=>'hello'));
 echo ($data);
 ```
 
-以上代码是说服务器不进行SSL认证，并不是真的走HTTPS
-如果要真的使用https，需要提供CA证书
+以上代码是说服务器不进行SSL认证，并不是真的走HTTPS，
+如果要真的使用https，需要提供CA证书，
 关于SSL部分设置如下：
 
 ```
@@ -119,7 +119,7 @@ curl_setopt($ch, CURLOPT_CAINFO, $cacert); // CA根证书（用来验证的网�
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2); // 检查证书中是否设置域名，并且是否与提供的主机名匹配 
 ```
 
-如果证书是自己生成的，或者是小机构申请的，那么严格认证是无法通过的，会返回false（此时可以打印curl_error($ch)查看具体的错误信息）
+如果证书是自己生成的，或者是小机构申请的，那么严格认证是无法通过的，会返回false（此时可以打印curl_error($ch)查看具体的错误信息，
 那么我们可以降低验证程度来保持正常访问。距离如下：
 
 ```
