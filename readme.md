@@ -14,3 +14,7 @@
 [面向对象三大特性解析](https://github.com/sunflower-lele/my_blog/blob/master/article/面向对象思想.md)
 
 [curl总结](https://github.com/sunflower-lele/my_blog/blob/master/article/curl.md)
+
+[cron总结](https://github.com/sunflower-lele/my_blog/blob/master/article/cron.md)
+
+[php基础知识](https://github.com/sunflower-lele/my_blog/blob/master/article/PHP基础知识.md)
