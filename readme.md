@@ -18,3 +18,5 @@
 [cron总结](https://github.com/sunflower-lele/my_blog/blob/master/article/cron.md)
 
 [php基础知识](https://github.com/sunflower-lele/my_blog/blob/master/article/PHP基础知识.md)
+
+[php内核](https://github.com/sunflower-lele/my_blog/blob/master/article/PHP内核.md)
